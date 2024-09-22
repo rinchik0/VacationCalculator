@@ -29,8 +29,11 @@ Full vacation for this salary and period will be: 88737.2 Vacation with NDFL: 77
 # Технологии
 
 SpringBoot
+
 Java 11
+
 jUnit
+
 Maven
 
 # Описание
