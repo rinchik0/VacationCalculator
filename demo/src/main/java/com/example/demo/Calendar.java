@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class Calendar {
     private ArrayList<Date> holidays;
     private static final int currentYear = 2024;
-    //добавить переменных, отвечающих за какие-то праздники, выходные и тп
 
     Calendar(){
         holidays = new ArrayList<Date>();
@@ -17,6 +16,7 @@ public class Calendar {
         holidays.add(new Date(12, 6, currentYear));
         holidays.add(new Date(4, 11, currentYear));
         holidays.add(new Date(31, 12, currentYear));
+        //Можно добавить еще переменных для праздников
     }
     public int getPaidDaysForPeriod(Date start, int paidDays){
         Date end = start.later(paidDays);
